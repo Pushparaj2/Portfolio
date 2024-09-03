@@ -93,8 +93,12 @@ section{
     align-items: center;
 }
 
+.home-content{
+    position: relative;
+    right: 10%;
+}
 .home-content h3{
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -435,6 +439,7 @@ span{
     grid-template-columns: repeat(2, 1fr);
     align-items:center;
     gap: 2.5rem;
+    margin-bottom: 100px;
 }
 
 .font{
@@ -506,7 +511,9 @@ span{
     color: var(--snd-bg-color);
 }
 
-
+.bol{
+    margin-bottom: 100px;
+}
 
 
 
@@ -653,6 +660,7 @@ span{
 
     .home-content{
         order:2;
+        left: 1%;
     }
     
     #row1{
