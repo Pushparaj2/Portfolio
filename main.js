@@ -50,16 +50,16 @@ ScrollReveal({
  });
 
  ScrollReveal().reveal('.home-content, heading',  { origin: 'top' });
- ScrollReveal().reveal('.home-img, .portfolio-box', { origin: 'bottom'});
+ ScrollReveal().reveal('.home-img, .portfolio-box, .font, .bol', { origin: 'bottom'});
  ScrollReveal().reveal('.home-contact h1, .about-img, .contact-information', { origin: 'left' });
  ScrollReveal().reveal('.home-contact p, .about-content, .contact form', { origin: 'right' });
 
 
 
  const typed = new Typed('.multiple-text',{
-    strings: ['Web Developer'],
-    typeSpeed: 200,
-    backSpeed: 200,
+    strings: ['Front-end Developer','Web Developer'],
+    typeSpeed: 150,
+    backSpeed: 150,
     backDelay: 250,
     loop:true,
  });
